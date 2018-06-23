@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+
+	<div class="container-fluid">
+		<header class="row">
+			<div class="encabezado col-md-12">
+				<a class="texto" href="#">
+					<img src="img/2.png" width="200px">
+				</a>
+	
+				<a class="texto" href="#" id="abrir">
+					<span class="fa fa-bars" aria-hidden="true"></span>
+				</a>
+
+				<a href="#" class="texto centro navbar-right">
+					<span class="fa fa-power-off"></span> Logout
+				</a>
+			</div>
+		</header>
+
+		
+	</div> <!-- container-fluid -->
+	<div class="sidebar">
+			<div class="sidebar-header text-center">
+            	<img src="img/SinFoto.jpg" alt="ORBITS" width="100%"/>
+        	</div>
+        	<h2 class="admin support">Admin Support</h2>
+        	<h1 class="admin">ADMIN</h1>
+        	<h5 class="admin correo"><strong>support_admin@medtrainer.com</strong></h5>
+        	<ul>
+        		<li><a class="distribution" href="#"><strong>Video Distribution</strong></a></li>
+        		<li><a href="#">Analytics Dashboard</a></li>
+        		<li><a href="#">Bundle Dashboard</a></li>
+        	</ul>
+	</div>
+
+	<div class="contenido abrir container-fluid">
+		<div class="row">
+			<div class="arriba col-md-12 col-xs-12">
+				<div class="padre">
+					<div class="hija num1">
+						<h2>Welcome to Orbits!</h2>
+					</div>
+					<div class="hija num2">
+						<strong>Please select an option</strong>
+						<a class="create btn btn-default" href="#"><span class="fa fa-th-large" aria-hidden="true"></span> Create Bundle</a>
+						<a class="assign btn btn-default" href="#" id="assign-videos"><span class="fa fa-map-marker" aria-hidden="true"></span> Assign Videos</a>
+
+						<a class="buscar btn btn-default" href="#"><span class="fa fa-search" aria-hidden="true"></span> </a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-12 col-xs-12">
+				<div class="assign-videos">
+					<h3>Assign videos</h3>
+					<p><strong>Select the videos you want to assign</strong></p>
+					<div class="videos-seleccionados" id="videos-seleccionados">
+						<!-- Aqui se crearan los videos -->
+					</div>
+					<input class="checkbox-todos" type="checkbox" id="select" name="select" value="videos">
+    				<label for="select">Select all videos</label>
+    				<p>Assign videos to</p>
+    				<input type="text" name="" placeholder="email@email.com">
+    				<a class="add btn btn-default" href="#">Add</a>
+    				<label class="add-email">Add the email address of the people that will have this bundle assigned</label>
+    				<div class="botones">
+    					<a class="assigned btn btn-default" href="#">Assigned</a>
+    					<a class="cancel btn btn-default" href="#">Cancel</a>
+    				</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="padre-img col-md-3">
+				<div class="padre-video">
+					<a class="video" id="video1" href="#">Video 1</a>
+					<div class="hijo-video n1">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video2" href="#">Video 2</a>
+					<div class="hijo-video n2">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video3" href="#">Video 3</a>
+					<div class="hijo-video n3">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video4" href="#">Video 4</a>
+					<div class="hijo-video n4">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video5" href="#">Video 5</a>
+					<div class="hijo-video n5">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video6" href="#">Video 6</a>
+					<div class="hijo-video n6">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video7" href="#">Video 7</a>
+					<div class="hijo-video n7">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video8" href="#">Video 8</a>
+					<div class="hijo-video n8">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video9" href="#">Video 9</a>
+					<div class="hijo-video n9">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video10" href="#">Video 10</a>
+					<div class="hijo-video n10">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video11" href="#">Video 11</a>
+					<div class="hijo-video n11">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video12" href="#">Video 12</a>
+					<div class="hijo-video n12">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video13" href="#">Video 13</a>
+					<div class="hijo-video n13">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video14" href="#">Video 14</a>
+					<div class="hijo-video n14">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video15" href="#">Video 15</a>
+					<div class="hijo-video n15">
+						
+					</div>
+				</div>
+				<div class="padre-video">
+					<a class="video" id="video16" href="#">Video 16</a>
+					<div class="hijo-video n16">
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
